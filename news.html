@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/responsive-style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+		rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+	<title>News</title>
+</head>
+
+<body>
+
+	<nav class="nav-sec">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-4">
+					<div class="menu-header">
+						<a href="./index.html">
+						<button class="home-btn" type="button">
+							<svg width="40" height="34" viewBox="0 0 40 34" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M16 34V22H24V34H34V18H40L20 0L0 18H6V34H16Z" fill="black" />
+							</svg>
+						</button>
+					    </a>
+						<div class="ham-menu">
+							<button class="ham-btn" type="button">
+								<svg width="35" height="24" viewBox="0 0 35 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M0 1.70636C0 1.25381 0.179777 0.819788 0.499782 0.499783C0.819787 0.179777 1.25381 0 1.70636 0H32.4209C32.8735 0 33.3075 0.179777 33.6275 0.499783C33.9475 0.819788 34.1273 1.25381 34.1273 1.70636C34.1273 2.15892 33.9475 2.59294 33.6275 2.91294C33.3075 3.23295 32.8735 3.41273 32.4209 3.41273H1.70636C1.25381 3.41273 0.819787 3.23295 0.499782 2.91294C0.179777 2.59294 0 2.15892 0 1.70636ZM0 11.9991C0 11.5466 0.179777 11.1126 0.499782 10.7926C0.819787 10.4726 1.25381 10.2928 1.70636 10.2928H32.4209C32.8735 10.2928 33.3075 10.4726 33.6275 10.7926C33.9475 11.1126 34.1273 11.5466 34.1273 11.9991C34.1273 12.4517 33.9475 12.8857 33.6275 13.2057C33.3075 13.5257 32.8735 13.7055 32.4209 13.7055H1.70636C1.25381 13.7055 0.819787 13.5257 0.499782 13.2057C0.179777 12.8857 0 12.4517 0 11.9991ZM1.70636 20.5873C1.25381 20.5873 0.819787 20.767 0.499782 21.0871C0.179777 21.4071 0 21.8411 0 22.2936C0 22.7462 0.179777 23.1802 0.499782 23.5002C0.819787 23.8202 1.25381 24 1.70636 24H32.4209C32.8735 24 33.3075 23.8202 33.6275 23.5002C33.9475 23.1802 34.1273 22.7462 34.1273 22.2936C34.1273 21.8411 33.9475 21.4071 33.6275 21.0871C33.3075 20.767 32.8735 20.5873 32.4209 20.5873H1.70636Z"
+										fill="black" />
+								</svg>
+							</button>
+							<div class="ham-menu-list">
+								<ul>
+									<li>
+										<a href="./data-analytics.html">
+											Data Analytics
+										</a>
+									</li>
+									<li>
+										<a href="./corporate-news.html">
+											Corporate News
+										</a>
+									</li>
+									<li>
+									<a href="./team2x.html">
+											Team
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="nav-logo">
+						<a href="./index.html">
+							<img src="./assets/images/logo.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="col-4">
+					<div class="mbl-ham">
+						<button class="ham-btn-mbl" type="button">
+							<svg width="35" height="24" viewBox="0 0 35 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M0 1.70636C0 1.25381 0.179777 0.819788 0.499782 0.499783C0.819787 0.179777 1.25381 0 1.70636 0H32.4209C32.8735 0 33.3075 0.179777 33.6275 0.499783C33.9475 0.819788 34.1273 1.25381 34.1273 1.70636C34.1273 2.15892 33.9475 2.59294 33.6275 2.91294C33.3075 3.23295 32.8735 3.41273 32.4209 3.41273H1.70636C1.25381 3.41273 0.819787 3.23295 0.499782 2.91294C0.179777 2.59294 0 2.15892 0 1.70636ZM0 11.9991C0 11.5466 0.179777 11.1126 0.499782 10.7926C0.819787 10.4726 1.25381 10.2928 1.70636 10.2928H32.4209C32.8735 10.2928 33.3075 10.4726 33.6275 10.7926C33.9475 11.1126 34.1273 11.5466 34.1273 11.9991C34.1273 12.4517 33.9475 12.8857 33.6275 13.2057C33.3075 13.5257 32.8735 13.7055 32.4209 13.7055H1.70636C1.25381 13.7055 0.819787 13.5257 0.499782 13.2057C0.179777 12.8857 0 12.4517 0 11.9991ZM1.70636 20.5873C1.25381 20.5873 0.819787 20.767 0.499782 21.0871C0.179777 21.4071 0 21.8411 0 22.2936C0 22.7462 0.179777 23.1802 0.499782 23.5002C0.819787 23.8202 1.25381 24 1.70636 24H32.4209C32.8735 24 33.3075 23.8202 33.6275 23.5002C33.9475 23.1802 34.1273 22.7462 34.1273 22.2936C34.1273 21.8411 33.9475 21.4071 33.6275 21.0871C33.3075 20.767 32.8735 20.5873 32.4209 20.5873H1.70636Z"
+									fill="black" />
+							</svg>
+						</button>
+						<div class="ham-menu-list">
+							<ul>
+								<li>
+									<a href="./data-analytics.html">
+										Data Analytics
+									</a>
+								</li>
+								<li>
+									<a href="./corporate-news.html">
+										Corporate News
+									</a>
+								</li>
+								<li>
+									<a href="./team2x.html">
+										Team
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<section class="news-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="community-head">
+						<h1>Kintsugi News</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row data-row">
+				<div class="col-12">
+					<div class="news-col">
+						<div class="news-img">
+							<img src="./assets/images/news1.png" alt="">
+						</div>
+						<div class="news-content">
+							<h5>6/10/2024: Unstoppable Joins Kintsugi Global for .Anime .Manga DNS Registration Amid
+								Japan’s $1B DigiDen Initiative</h5>
+							<p>Unstoppable Domains and Kintsugi Global, a prominent Japanese Web3 service provider,
+								plans to register for the first DNS-enabled Web3 domains focused on anime and manga
+								through an application with the Internet Corporation for Assigned Names and Numbers
+								(ICANN). 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="news-col">
+						<div class="news-img">
+							<img src="./assets/images/news2.png" alt="">
+						</div>
+						<div class="news-content">
+							<h5>5/21/2024: Kintsugi Global Participating in Japan’s $1 Billion DigiDen Digital City
+								Garden Initiative 
+							</h5>
+							<p>Kintsugi Global, Inc., a leading provider of Web3 services and solutions, today announced
+								it is participating in the Japanese government’s Vision for a Digital Garden City Nation
+								“DigiDen” initiative, a $1 billion program spearheaded by Prime Minister Fumio Kishida. 
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="news-col">
+						<div class="news-img">
+							<img src="./assets/images/news3.png" alt="">
+						</div>
+						<div class="news-content">
+							<h5>7/10/2023: Kintsugi Global Launches animedomains.com, Bringing Together Anime and Manga
+								Fans on a Single Platform
+							</h5>
+							<p>Kintsugi Global, Inc. has launched animedomains.com, a digital marketplace that allows
+								users to purchase .anime and .manga web3 domains, bringing together anime and manga fans
+								from all over the world into a unified online platform.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="footer-col">
+						<a class="visible-xs" href="#">
+							<button class="launch-btn" type="button">
+								Launch Platform ->
+							</button>
+						</a>
+						<h6>Kintsugi Global Inc.</h6>
+						<div class="footer-mail">
+							<div class="powr-form-builder" id="445170c2_1726173395"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+						</div>
+						<span>
+ 							<a href="https://www.facebook.com/profile.php?id=61558376856749">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_1068_223)">
+										<path
+											d="M12 -3C3.70714 -3 -3 3.75 -3 12.0857C-3 19.6071 2.48571 25.8643 9.66428 27V16.4571H5.85V12.0857H9.66428V8.76429C9.66428 4.97143 11.9143 2.89286 15.3214 2.89286C16.9714 2.89286 18.6857 3.19286 18.6857 3.19286V6.9H16.8C14.9357 6.9 14.3571 8.05714 14.3571 9.25714V12.0857H18.5143L17.85 16.4571H14.3571V27C21.5357 25.8643 27.0214 19.6286 27.0214 12.0857C27.0214 3.75 20.3143 -3 12.0214 -3H12Z"
+											fill="#DF1824" />
+									</g>
+									<defs>
+										<clipPath id="clip0_1068_223">
+											<rect width="24" height="24" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="https://www.linkedin.com/company/kintsugi-global/">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_1068_225)">
+										<path
+											d="M23.6667 -3C24.5507 -3 25.3986 -2.64881 26.0237 -2.02369C26.6488 -1.39857 27 -0.550722 27 0.333333V23.6667C27 24.5507 26.6488 25.3986 26.0237 26.0237C25.3986 26.6488 24.5507 27 23.6667 27H0.333333C-0.550722 27 -1.39857 26.6488 -2.02369 26.0237C-2.64881 25.3986 -3 24.5507 -3 23.6667V0.333333C-3 -0.550722 -2.64881 -1.39857 -2.02369 -2.02369C-1.39857 -2.64881 -0.550722 -3 0.333333 -3H23.6667ZM22.8333 22.8333V14C22.8333 12.559 22.2609 11.177 21.2419 10.1581C20.223 9.1391 18.841 8.56667 17.4 8.56667C15.9833 8.56667 14.3333 9.43333 13.5333 10.7333V8.88333H8.88333V22.8333H13.5333V14.6167C13.5333 13.3333 14.5667 12.2833 15.85 12.2833C16.4688 12.2833 17.0623 12.5292 17.4999 12.9668C17.9375 13.4043 18.1833 13.9978 18.1833 14.6167V22.8333H22.8333ZM3.46667 6.26667C4.20927 6.26667 4.92146 5.97167 5.44657 5.44657C5.97167 4.92146 6.26667 4.20927 6.26667 3.46667C6.26667 1.91667 5.01667 0.65 3.46667 0.65C2.71964 0.65 2.00321 0.946755 1.47498 1.47498C0.946755 2.00321 0.65 2.71964 0.65 3.46667C0.65 5.01667 1.91667 6.26667 3.46667 6.26667ZM5.78333 22.8333V8.88333H1.16667V22.8333H5.78333Z"
+											fill="#DF1824" />
+									</g>
+									<defs>
+										<clipPath id="clip0_1068_225">
+											<rect width="24" height="24" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+ 
+							<a href="https://www.instagram.com/kintsugiglobal2024/">
+								<svg width="22" height="22" viewBox="0 0 22 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M4.81141 0.349609C3.62778 0.349609 2.49261 0.819687 1.65549 1.65648C0.81838 2.49327 0.347867 3.62827 0.347412 4.8119V16.7159C0.347412 17.8998 0.817725 19.0353 1.65489 19.8724C2.49205 20.7096 3.62749 21.1799 4.81141 21.1799H16.7154C17.899 21.1794 19.034 20.7089 19.8708 19.8718C20.7076 19.0347 21.1777 17.8995 21.1777 16.7159V4.8119C21.1772 3.62856 20.707 2.49383 19.8702 1.65708C19.0335 0.820342 17.8987 0.350064 16.7154 0.349609H4.81141ZM17.9994 4.81875C17.9994 5.15975 17.864 5.48677 17.6228 5.72789C17.3817 5.96901 17.0547 6.10447 16.7137 6.10447C16.3727 6.10447 16.0457 5.96901 15.8046 5.72789C15.5634 5.48677 15.428 5.15975 15.428 4.81875C15.428 4.47776 15.5634 4.15073 15.8046 3.90962C16.0457 3.6685 16.3727 3.53304 16.7137 3.53304C17.0547 3.53304 17.3817 3.6685 17.6228 3.90962C17.864 4.15073 17.9994 4.47776 17.9994 4.81875ZM10.7651 7.19818C9.81944 7.19818 8.91249 7.57385 8.24379 8.24255C7.57509 8.91125 7.19941 9.81821 7.19941 10.7639C7.19941 11.7096 7.57509 12.6165 8.24379 13.2852C8.91249 13.9539 9.81944 14.3296 10.7651 14.3296C11.7108 14.3296 12.6178 13.9539 13.2865 13.2852C13.9552 12.6165 14.3308 11.7096 14.3308 10.7639C14.3308 9.81821 13.9552 8.91125 13.2865 8.24255C12.6178 7.57385 11.7108 7.19818 10.7651 7.19818ZM5.48341 10.7639C5.48341 9.36355 6.0397 8.02056 7.02989 7.03037C8.02008 6.04018 9.36307 5.4839 10.7634 5.4839C12.1638 5.4839 13.5067 6.04018 14.4969 7.03037C15.4871 8.02056 16.0434 9.36355 16.0434 10.7639C16.0434 12.1642 15.4871 13.5072 14.4969 14.4974C13.5067 15.4876 12.1638 16.0439 10.7634 16.0439C9.36307 16.0439 8.02008 15.4876 7.02989 14.4974C6.0397 13.5072 5.48341 12.1642 5.48341 10.7639Z"
+										fill="#DF1824" />
+								</svg>
+							</a>
+							<a href="https://discord.gg/aq8EvCqB6m">
+								<svg width="22" height="16" viewBox="0 0 22 16" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M18.27 1.33005C16.94 0.710046 15.5 0.260046 14 4.59982e-05C13.9868 -0.000374605 13.9738 0.00209348 13.9617 0.00727676C13.9496 0.01246 13.9388 0.0202326 13.93 0.0300462C13.75 0.360046 13.54 0.790046 13.4 1.12005C11.809 0.880046 10.191 0.880046 8.6 1.12005C8.46 0.780046 8.25 0.360046 8.06 0.0300462C8.05 0.0100462 8.02 4.59982e-05 7.99 4.59982e-05C6.49 0.260046 5.06 0.710046 3.72 1.33005C3.71 1.33005 3.7 1.34005 3.69 1.35005C0.969995 5.42005 0.219995 9.38004 0.589995 13.3C0.589995 13.32 0.599995 13.34 0.619995 13.35C2.42 14.67 4.15 15.47 5.86 16C5.89 16.01 5.91999 16 5.93 15.98C6.33 15.43 6.69 14.85 7 14.24C7.02 14.2 7 14.16 6.96 14.15C6.39 13.93 5.85 13.67 5.32 13.37C5.28 13.35 5.27999 13.29 5.31 13.26C5.42 13.18 5.52999 13.09 5.64 13.01C5.66 12.99 5.69 12.99 5.71 13C9.15 14.57 12.86 14.57 16.26 13C16.28 12.99 16.31 12.99 16.33 13.01C16.44 13.1 16.55 13.18 16.66 13.27C16.7 13.3 16.7 13.36 16.65 13.38C16.13 13.69 15.58 13.94 15.01 14.16C14.97 14.17 14.96 14.22 14.97 14.25C15.29 14.86 15.65 15.44 16.04 15.99C16.07 16 16.1 16.01 16.13 16C17.85 15.47 19.58 14.67 21.38 13.35C21.4 13.34 21.41 13.32 21.41 13.3C21.85 8.77004 20.68 4.84005 18.31 1.35005C18.3 1.34005 18.29 1.33005 18.27 1.33005ZM7.52 10.91C6.49 10.91 5.63 9.96005 5.63 8.79005C5.63 7.62005 6.47 6.67005 7.52 6.67005C8.58 6.67005 9.42 7.63005 9.41 8.79005C9.41 9.96005 8.57 10.91 7.52 10.91ZM14.49 10.91C13.46 10.91 12.6 9.96005 12.6 8.79005C12.6 7.62005 13.44 6.67005 14.49 6.67005C15.55 6.67005 16.39 7.63005 16.38 8.79005C16.38 9.96005 15.55 10.91 14.49 10.91Z"
+										fill="#DF1824" />
+								</svg>
+							</a>
+							<a href="https://t.me/KintsugiGlobal">
+								<img height="24" src="./assets/images/icon1.png" alt="#" />
+							</a>
+						</span>
+						<a class="hidden-xs" href="https://www.myanime.us/">
+							<button class="launch-btn" type="button">
+								Launch Platform ->
+							</button>
+						</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="footer-listing">
+						<ul>
+							<li>
+								 <a href="./terms.html">
+									Terms
+								</a>
+							</li>
+							<li>
+								<a href="./privacy.html">
+									Privacy
+								</a>
+							</li>
+							<li>
+								<a href="./contact.html">
+									Contact Us
+								</a>
+							</li>
+ 
+						</ul>
+						<ul>
+							<li>
+								<a href="./data-analytics.html">
+									Data Analytics
+								</a>
+							</li>
+							<li>
+								<a href="./partnership.html">
+									Partnerships
+								</a>
+							</li>
+							<li>
+									<a href="./corporate-news.html">
+									Corporate News
+								</a>
+							</li>
+							<li>
+								<a href="./team.html">
+									Team
+								</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="./fan-home.html">
+									Fan Home
+								</a>
+							</li>
+							<li>
+								<a href="./creator.html">
+									Creator Home
+								</a>
+							</li>
+							<li>
+								<a href="./web-home.html">
+									Web3 Home
+								</a>
+							</li>
+							<li>
+								<a href="./corporate.html">
+									Partner Home
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="foot-text">
+						<p>(C) 2021 - 2024 Kintsugi Global, Inc. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+	<script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./assets/js/custom.js"></script>
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+
+</body>
+
+</html>
